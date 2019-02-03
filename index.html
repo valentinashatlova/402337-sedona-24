@@ -1,12 +1,102 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Седона</title>
+</head>
+<body>
+  <header class="main-header">
+    <nav class="main-navigation">
+      <a class="main-header-logo">
+      <img src="img/index-logo.svg" width="368" height="204" alt="Логотип Курорт «CEDONA»"></a>
+      <ul class="site-navigation">
+        <li><a href="info.html">Информация</a></li>
+        <li><a href="fotoandvideo.html">Фото и видео</a></li>
+        <li><a href="cardstate.html">Карта штата</a></li>
+        <li><a href="hotels.html">Гостиницы</a></li>
+      </ul>
+    </nav>
+  </header>
+<main class="container">
+  <h1 class="visually-hidden">Курорт «CEDONA»</h1>
+  <a href="#"><img src="img/fonlogo/jpg" width="286" height="164" alt="Фоновый логотип"></a>
+  <p>Седона-небольшой городок в аризоне, заслуживающий большего!</p>
+  <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон</p>
+<section class="features">
+  <h2 class="visually-hidden">Преимущества</h2>
+    <ol class="features-list">
+      <li class="feature-item">
+        <h3>Настоящий городок</h3>
+        <p>Седона-не аттракцион для туристов, там течет своя жизнь</p>
+        <a href="#"><img src="img/sity/jpg" width="286" height="164" alt="Город"></a>
+        <ul>
+          <li class="feature-item">жилье
+          <p>рекомендуем пожить в настоящем мотеле, все как в кино!</p></li>
+          <li class="feature-item">еда
+          <p>всегда заказывайте фирменный бургер, вы не разочаруетесь!</p></li>
+          <li class="feature-item">сувениры
+          <p>не только китайского, но и местного производства!</p></li>
+        </ul>
+      </li>
+      <li class="feature-item">
+        <h3>Там есть мост дьявола</h3>
+        <p>да по нему можно пройти если конечно вы осмелитесь</p>
+        <a href="#"><img src="img/most/jpg" width="286" height="164" alt="Мост"></a>
+      </li>
+      <li class="feature-item">
+        <h3>Небольшая площадь</h3>
+        <p>все достопримечательности находятся очень близко!</p>
+      </li>
+      <li class="feature-item">
+        <h3>Красивая дорога</h3>
+        <p>ехать в Седону из Лас-Вегаса совсем не скучно</p>
+      </li>
+      <li class="feature-item">
+        <h3>Мало туристов</h3>
+        <p>большинство едет в Гранд Каньон и толпиться там</p>
+      </li>
+  </ol>
+</section>
+<section class="client menu">
+  <a href="#"><img src="img/map/jpg" width="286" height="164" alt="Карта"></a>
+  <h2>Заинтересовались?</h2>
+  <form class="filter" method="get" action="https://echo.htmlacadmy.ru">
+    <form action="https://echo.htmlacademy.ru" method="post">
+      <label> Дата заезда:
+       <select name="year">
+         <option value="24 апреля 2017">24 апреля 2017</option>
+           </select><br>
+       <label> Дата выезда:
+       <select name="year">
+         <option value="4 июля 2017">4 июля 2017</option>
+       </select><br>
+       <label> Взрослые:
+       <select name="year">
+         <option value="2">2</option>
+           </select>
+       <label> Дети:
+       <select name="year">
+         <option value="0">0</option>
+       </select><br>
+       <input type="submit" value="Найти">
+<section class="map">
+  <a href="#"><img src="img/map/jpg" width="286" height="164" alt="Карта"></a>
+</section>
+</main>
+<footer class="main-footer">
+  <p class="footer-link">#VISITSEDONA</p>
+  <div class="footer-social">
+    <ul>
+      <li><a class="social-link" href="#">Твитер</a> </li>
+      <li><a class="social-link" href="#">Фейсбук</a> </li>
+      <li><a class="social-link" href="#">Ютуб</a> </li>
+    </ul>
+  </div>
+  <p class="footer-copyright">
+  <b>WEBSITE</b>
+  <a class="button" href="https://htmlacademy.ru">html academy</a>
+  </p>
+</footer>
+</body>
+</html> 
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
-
-  </body>
-</html>
