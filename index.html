@@ -27,47 +27,50 @@
         <a class="background-link" href="#"> 
           <img src="img/background-index.jpg" width="1200" height="800" alt="Фоновый логотип">
         </a>
-        <p class="container-description">Седона-небольшой городок в аризоне, заслуживающий большего!</p>
-        <p class="container-description-item">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон</p>
+        <div class="container-slogan"><p class="container-description">Седона-небольшой городок в аризоне, заслуживающий большего!</p>
+        <p class="container-description-item">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон</p></div>
         <section class="features">
           <h2 class="visually-hidden">Преимущества</h2>
           <ol class="features-list">
             <li class="feature-item feature-long">
-              <h3>Настоящий городок</h3>
-              <p class="feature-item-text">Седона-не аттракцион для туристов, там течет своя жизнь</p>
-              <a href="#">
-                <img src="img/city.png" width="800" height="401" alt="Город">
+              <a class="feature-item-annotation" href="#">
+                <h3>Настоящий <br> городок</h3>
+                <span class="feaute-namber">-№1-</span>
+                <p class="feature-item-text">Седона-не аттракцион для туристов, там течет своя жизнь</p>
               </a>
               <ul class="feature-other">
-                <li class="feature-other-item">жилье
-                  <p class="feature-description-item">рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+                <li class="feature-other-item"> <span class="feature-other-services">жилье</span> 
+                  <p class="feature-description-item">рекомендуем пожить в настоящем <br> мотеле, все как в кино!</p>
                 </li>
-                <li class="feature-other-item">еда
-                  <p class="feature-description-item">всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+                <li class="feature-other-item"> <span class="feature-other-services"> еда</span> 
+                  <p class="feature-description-item">всегда заказывайте фирменный бургер, <br> вы не разочаруетесь!</p>
                 </li>
-                <li class="feature-other-item">сувениры
-                  <p class="feature-description-item">не только китайского, но и местного производства!</p>
+                <li class="feature-other-item"><span class="feature-other-services">сувениры</span>
+                  <p class="feature-description-item">не только китайского, но и местного <br> производства!</p>
                 </li>
               </ul>
             </li>
             <li class="feature-item feature-long">
-              <h3>Там есть мост дьявола</h3>
-              <p class="feature-item-text">да по нему можно пройти если конечно вы осмелитесь</p>
-              <a href="#">
-                <img src="img/bridge.png" width="800" height="400" alt="Мост">
+              <a class="feature-item-annotation" href="#">
+                <h3>Там есть <br> мост дьявола</h3>
+                <span class="feaute-namber">-№2-</span>
+                <p class="feature-item-text">да по нему можно пройти если конечно вы осмелитесь</p>
               </a>
             </li>
             <li class="feature-item">
-              <h3>Небольшая площадь</h3>
-              <p class="feature-description-item">все достопримечательности находятся очень близко!</p>
+              <h3>Небольшая<br>площадь</h3>
+              <span class="feaute-namber">-№3-</span>
+              <p class="feature-description-item">все достопримечательности <br> находятся очень близко!</p>
             </li>
             <li class="feature-item">
-              <h3>Красивая дорога</h3>
-              <p class="feature-description-item">ехать в Седону из Лас-Вегаса совсем не скучно</p>
+              <h3>Красивая<br>дорога</h3>
+              <span class="feaute-namber">-№4-</span>
+              <p class="feature-description-item">ехать в Седону из Лас-Вегаса совсем <br> не скучно</p>
             </li>
             <li class="feature-item">
-              <h3>Мало туристов</h3>
-              <p class="feature-description-item">большинство едет в Гранд Каньон и толпиться там</p>
+              <h3>Мало<br>туристов</h3>
+              <span class="feaute-namber">-№5-</span>
+              <p class="feature-description-item">большинство едет в Гранд Каньон <br> и толпиться там</p>
             </li>
           </ol>
         </section>
@@ -76,21 +79,31 @@
           <p class="client-menu-option">укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
           <form class="form-client-menu" method="POST" action="https://echo.htmlacadmy.ru">
             <fieldset>
-                <legend class="search">Поиск гостиницы в Седоне</legend>
-                <label for="date-arr"> Дата заезда:</label>
-                <input type="date" name="date-arr" value="24 апреля 2017">
-                <label for="date-dep"> Дата выезда:</label>
-                <input type="date" name="date-dep" value="4 июля 2017">
-                <label for="people">Взрослые:</label>
-                <input type="text" name="people" value="2" id="people">
-                <button type="button">Уменьшить</button>
-                <button type="button">Увеличить</button>
-                <label for="children">Дети:</label>
-                <input type="text" name="children" value="0" id="children">
-                <button type="button">Уменьшить</button>
-                <button type="button">Увеличить</button>
-            </fieldset>
-            <input class="find" type="submit" value="Найти">
+              <legend class="search">Поиск гостиницы в Седоне</legend>
+              <div class="appointment">
+                <p class="appointment-item">  
+                  <label for="date-arr"> Дата заезда:</label>
+                  <input type="date" name="date-arr" value="24 апреля 2017">
+                </p>
+                <p class="appointment-item"> 
+                  <label for="date-dep"> Дата выезда:</label>
+                  <input type="date" name="date-dep" value="4 июля 2017">
+                </p>
+                <p class="appointment-status">
+                    <label for="people">Взрослые:</label>
+                    <button type="button">-</button>
+                    <input type="text" name="people" value="2" id="people">
+                    <button type="button">+</button>
+                  </p>
+                  <p>
+                    <label for="children">Дети:</label>
+                    <button type="button">-</button>
+                    <input type="text" name="children" value="0" id="children">
+                    <button type="button">+</button>
+                  </p>
+                  <input class="find" type="submit" value="Найти">
+              </div>
+          </fieldset>
           </form>
         </section>
         <section class="map">
