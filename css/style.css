@@ -122,6 +122,10 @@ a {
     color: #333333; 
 }
 
+.container h3 {
+    margin: 0 auto;
+}
+
 .features-list,
 .feature-other {
     margin: 0;
@@ -518,28 +522,28 @@ a {
     width: 1200px;
 }
 
-.sorting-result {
+/*.sorting-result {
     display: flex;
-    width: 100%;
+}*/
+
+/* Привет, солнце! Прости за бордак в CSS*/
+
+.sorting-form {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    text-align: center;
 }
 
 .sorting-form fieldset {
     margin: 0px;
     padding: 0px;
     display: flex;
-    width: 100%;
     text-align: center;
 }
 
-.sorting-form {
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    width: 100%;
-    text-align: center;
-}
-
-.sorting-form ul {
+.sorting-form ul,
+.sorting-form div {
     font-size: 12px;
     line-height: 18px;
     color: black;
@@ -549,6 +553,13 @@ a {
     padding: 0;
     display: flex;
     text-align: center;
+}*/
+
+.sorting-form div{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    flex-grow: 1;
 }
 
 .sorting-form li:first-child {
