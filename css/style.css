@@ -516,7 +516,6 @@ a {
 }
 
 .sorting {
-    list-style: none;
     margin: 0;
     padding: 0;
     width: 1200px;
@@ -526,19 +525,32 @@ a {
     display: flex;
 }*/
 
-/* Привет, солнце! Прости за бордак в CSS*/
+/* Привет, солнце! Прости за бордак в CSS*/ 
 
 .sorting-form {
     margin: 0px;
-    padding: 0px;
+    padding: 21px 74px;
     display: flex;
+    justify-content: space-between;
     text-align: center;
+}
+
+.sorting-form p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.sorting-form p:nth-child(2) {
+    margin: 0px;
+    padding-left: 50px;
 }
 
 .sorting-form fieldset {
     margin: 0px;
     padding: 0px;
+    padding-left: 40px;
     display: flex;
+    justify-content: space-between;
     text-align: center;
 }
 
@@ -553,20 +565,52 @@ a {
     padding: 0;
     display: flex;
     text-align: center;
-}*/
+}
 
-.sorting-form div{
+.sorting-form div {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.sorting-submit input {
     margin: 0;
     padding: 0;
     border: 0;
-    flex-grow: 1;
+    left: auto;
+    color: red;
 }
 
 .sorting-form li:first-child {
     color: #81b3d2;
     opacity: 1;
 }
-  
+ 
+.catalog-hotel {
+
+}
+.catalog-item {
+    margin: 0;
+    padding: 0px 74px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalog-item-first-hotel:first-child a {
+    margin: 0;
+    padding:0;
+    padding-right: 800px;
+    height: 256px;
+    background-image: url(../img/catalog-articl-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px auto;
+    background-position: right;
+    display: block;
+}
+
 .catalog-item-title  {
     font-size: 21px;
     line-height: 26px;

@@ -94,7 +94,7 @@
                   </li>
                 </ul>
               </fieldset>
-                <div>
+                <div class="sorting-submit">
                   <input type="submit" value="По возрастанию">
                   <input type="submit" value="По убыванию">
                 </div>
@@ -104,19 +104,24 @@
         <section class="list">
           <h2 class="visually-hidden">Список гостиниц</h2> 
           <ul class="catalog-hotel">
-            <li class="catalog-item"> <h3 class="catalog-item-title">AMARA RESORT & SPA</h3>
-              <img src="img/catalog-articl-1.jpg" width="135" height="90" alt="Картинка AMARA RESORT & SPA»"> 
-              <table class="result">
-                <tr>
-                  <td>Гостиница</td>
-                  <td>от 4000 р.</td>
-                </tr>   
-              </table>
+            <li class="catalog-item"> 
+                <a class="catalog-item-first-hotel" href="#">
+                <h3 class="catalog-item-title">AMARA RESORT & SPA</h3>
+                <img src="img/catalog-articl-1.jpg" width="135" height="90" alt="Картинка AMARA RESORT & SPA»"> 
+                <table class="result">
+                  <tr>
+                    <td>Гостиница</td>
+                    <td>от 4000 р.</td>
+                  </tr>   
+                </table>
+                <button class="button" class="info" type="submit">Подробнее</button>
+                <button class="button" class="booking" type="submit">Забронировать</button>
+              </a>
               <div class="stars"><span>Рейтинг 8,5</span></div>
-              <button class="button" class="info" type="submit">Подробнее</button>
-              <button class="button" class="booking" type="submit">Забронировать</button>
             </li>
-            <li class="catalog-item"> <h3 class="catalog-item-title">DESERT QUAIL INN</h3>
+            <li class="catalog-item"> 
+              <a class="catalog-item-first-hotel" href="#">
+              <h3 class="catalog-item-title">DESERT QUAIL INN</h3>
               <img src="img/catalog-articl-2.jpg" width="135" height="90" alt="Картинка DESERT QUAIL INN»"> 
               <table class="result">
                 <tr>
@@ -124,11 +129,14 @@
                   <td>от 3000 р.</td>
                 </tr>   
               </table>
-              <div class="stars"><span>Рейтинг 8,9</span></div>
               <button class="button" class="info" type="submit">Подробнее</button>
               <button class="button" class="booking" type="submit">Забронировать</button>
+            </a>
+              <div class="stars"><span>Рейтинг 8,9</span></div>
             </li>
-            <li class="catalog-item"> <h3 class="catalog-item-title">VILLAS AT POCO DIABLO</h3>
+            <li class="catalog-item"> 
+              <div class="catalog-item-first-hotel">
+              <h3 class="catalog-item-title">VILLAS AT POCO DIABLO</h3>
               <img src="img/catalog-articl-3.jpg" width="135" height="90" alt="Картинка VILLAS AT POCO DIABLO»"> 
               <table class="result">
                 <tr>
@@ -136,9 +144,10 @@
                   <td>от 2000 р.</td>
                 </tr>   
               </table>
-              <div class="stars"><span>Рейтинг 9,2</span></div>
               <button class="button" class="info" type="submit">Подробнее</button>
               <button class="button" class="booking" type="submit">Забронировать</button>
+              </div>
+              <div class="stars"><span>Рейтинг 9,2</span></div>
             </li>
           </ul>
         </section>      
