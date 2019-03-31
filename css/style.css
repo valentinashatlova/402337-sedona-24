@@ -123,7 +123,7 @@ a {
 }
 
 .container h3 {
-    margin: 0 auto;
+    margin: 0;
 }
 
 .features-list,
@@ -599,7 +599,7 @@ a {
     justify-content: space-between;
 }
 
-.catalog-item-first-hotel:first-child a {
+/*.catalog-item-first-hotel:first-child a {
     margin: 0;
     padding:0;
     padding-right: 800px;
@@ -609,7 +609,39 @@ a {
     background-size: 800px auto;
     background-position: right;
     display: block;
+}*/
+
+.catalog-item-first-hotel a {
+    margin: 0;
+    padding:0;
+    display: flex;
+    flex-direction: row;
 }
+
+.catalog-item-title {
+    width: 300px;
+    padding: 0;
+    padding-left: 65px;
+    order: 2;
+}
+
+/*.catalog-item {
+    position: relative;
+}
+
+.catalog-item-link:nth-child(2) {
+    width: 100px;
+    position: absolute;
+    }*/
+
+.result {
+    padding-left: 200px;
+}
+
+.button-interface {
+    margin-left: 200px;
+}
+
 
 .catalog-item-title  {
     font-size: 21px;
