@@ -76,35 +76,19 @@ a {
 }
 
 .background-link {
-    display: block;
-    position: relative;
-}
-
-.background-link::after {
-    content: "";
+    margin-bottom: 60px;
+    display: flex;
     width: 1200px;
-    height: 59px;
-    background-image: url(../img/intro-mask.svg);
-    display: block;
-    position: absolute;
-    bottom: 0;
-}
-
-.background-link::before {
-    content: "";
-    width: 459px;
-    height: 353px;
-    background-image: url(../img/intro-welcome.svg);
-    display: block;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    top: 50%;
+    height: 508px;
+    background-image: url(../img/intro-mask.svg), url(../img/background-index.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, cover;
+    background-position-y: bottom, -85px;
 }
 
 .background-link img {
     display: block;
-    margin: 0;
+    margin: auto;
     padding: 0;
     
 }
@@ -112,11 +96,17 @@ a {
 .container-slogan {
     display: block;
     margin: 0 auto;
+    margin-bottom: 51px;
     padding: 0;
     text-align: center;
 }
 
+.container-description {
+    margin: 0; 
+    margin-bottom: 24px;
+}
 .container-description-item {
+    margin: 0;
     font-size: 14px;
     font-weight: 400;
     color: #333333; 
@@ -146,6 +136,7 @@ a {
 }
 
 .features-list p {
+    margin: 0;
     font-size: 14px;
     font-weight: 400;
     color: #333333;
@@ -195,16 +186,25 @@ a {
     display: block;
 }
 
+.feature-item-annotation-conteiner {
+    margin: 0;
+    padding: 45px 50px 55px;
+    display: block;
+}
+
+.feature-item-annotation-conteiner h3 {
+    margin: 0;
+    margin-bottom: 25px;
+}
+
 .feature-other {
     color: #000000;
     background-color: #ffffff;
     margin: 0;
-    padding: 0;
+    padding: 50px 0;
     list-style: none;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-    text-align: center;
 }
 
 .feature-other li {
@@ -223,7 +223,13 @@ a {
     text-align: center;
 }
 
+.feature-other-services {
+    margin-bottom: 30px;
+    display: block;
+}
+
 .feature-namber {
+    margin-bottom: 25px;
     background-color: #81b3d2;
     text-align: center;
 }
