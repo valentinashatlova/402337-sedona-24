@@ -157,6 +157,12 @@ a {
     width: 400px;
 }
 
+/*.feature-item-text {
+    margin: 0;
+    padding-bottom: 15px;
+    display: block;
+}*/
+
 .feature-long {
     color: #ffffff;
     background-color: #81b3d2;
@@ -226,6 +232,9 @@ a {
 .feature-namber {
     background-color: #81b3d2;
     text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 150px;
 }
 
 .client-menu,
