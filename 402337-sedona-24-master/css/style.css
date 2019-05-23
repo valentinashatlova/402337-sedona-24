@@ -410,6 +410,11 @@ a {
     justify-content: space-between;
 }
 
+.filter-parametrs {
+    display: flex;
+    justify-content: space-between;
+}
+
 .filter fieldset {
     padding: 0;
     display: block;
@@ -426,6 +431,7 @@ a {
 
 .filter-option {
     width: 100%;
+    margin-top: 22px;
 }
 
 .catalog-hotel, 
